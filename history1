@@ -1,0 +1,61 @@
+    1  sudo apt install git
+    2  git help
+    3  git clone https://github.com/list807/publicops.git
+    4  cd openops
+    5  cd publicops/
+    6  nano author
+    7  git add .
+    8* git config --global "davi807"
+    9  nano author
+   10  git config --global user.email "davi807plus@gmail.com"
+   11  git config --global user.name "Davit Babayan"
+   12  git commit
+   13  git push origin
+   14  git branch
+   15  git push -u  origin 
+   16  git push  origin 
+   17  curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+   18  sudo apt-add-repository https://packages.microsoft.com/ubuntu/18.04/prod
+   19  sudo apt-get install gcmcore
+   20  git-credential-manager-core configure
+   21  git-credential-manager-core 
+   22  git-credential-manager-core  git
+   23  git-credential-manager-core configure  git 
+   24  git-credential-manager-core  git  configure
+   25  git-credential-manager-core configure
+   26  git remote set-url <stream> https://<token>@github.com/<username>/<repo>
+   27  git remote set-url -u https://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@github.com/list807/publicops
+   28  git remote set-url -push origin https://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@github.com/list807/publicops
+   29  git remote set-url --push origin https://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@github.com/list807/publicops
+   30  git remote set-url origin https://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@github.com/list807/publicops
+   31  git status
+   32  git branch --unset-upstream
+   33  git status
+   34  git push origin
+   35  git push origin master
+   36  git config --global credential.helper cache
+   37  git config --global --unset credential.helper
+   38  git config --global credential.helper libsecret
+   39  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
+   40* git remote set-url origin https://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
+   41  git status
+   42  git push origin
+   43  git push --set-upstream origin
+   44  git push --set-upstream origin master
+   45  git remote
+   46  git help remote
+   47  git remote show
+   48  git remote show origin
+   49  git remote --set-url origin https://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@github.com/list807/publicops
+   50  git remote set-url origin https://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@github.com/list807/publicops
+   51  git push --set-upstream origin master
+   52  export GCM_CREDENTIAL_STORE=secretservice
+   53  git push --set-upstream origin master
+   54  git push origin
+   55  git status
+   56  git branch history1
+   57  history
+   58  git branch 
+   59  git checkout history1
+   60  cat history > history1
+   61  history > history1
